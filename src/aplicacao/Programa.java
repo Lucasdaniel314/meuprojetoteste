@@ -9,9 +9,9 @@ public class Programa {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("como vai seu dia? ");
 		String estar = sc.nextLine();
-		if (estar == "bem"){
+		if (estar.equals("bem")){
 			System.out.println("tenha um bom dia!");
-		} else if(estar == "mal"){
+		} else if(estar.equals("mal")){
 			System.out.println("que pena");
 		}
 		sc.close();

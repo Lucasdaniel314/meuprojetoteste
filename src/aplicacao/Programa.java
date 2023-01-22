@@ -6,13 +6,14 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//tabuada
 		Scanner sc = new Scanner(System.in);
-		System.out.print("como vai seu dia? ");
-		String estar = sc.nextLine();
-		if (estar.equals("bem")){
-			System.out.println("tenha um bom dia!");
-		} else if(estar.equals("mal")){
-			System.out.println("que pena");
+		int resultado = 0;
+		System.out.print("você que ver a tabuada de qual número? ");
+		int num = sc.nextInt();
+		for(int i = 0; i<=10; i++){
+			resultado = num * i;
+			System.out.println(num +" x "+ i + "= "+ resultado);
 		}
 		sc.close();
 	}

@@ -1,4 +1,3 @@
+#linguagem compilada
 *.class
-*.project
-*.classpath
 .metadata/
